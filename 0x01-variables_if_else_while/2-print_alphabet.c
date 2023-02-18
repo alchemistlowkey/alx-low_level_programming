@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	char c = tolower;
+	char c = tolower();
 
 	putchar(c);
 	return (0);
