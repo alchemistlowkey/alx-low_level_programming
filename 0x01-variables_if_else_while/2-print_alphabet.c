@@ -11,11 +11,14 @@
 int main(void)
 {
 	char c[] = "a...z";
+	char l;
 
-	for (int i = 0; i < strlen(c); i++)
+	for (;; c++)
 	{
-	c[i] = tolower(c[i]);
+		putchar(c);
+		l = tolower(c);
+		putchar(l);
 	}
-	putchar(c);
+
 	return (0);
 }
