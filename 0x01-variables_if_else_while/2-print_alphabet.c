@@ -10,8 +10,12 @@
 
 int main(void)
 {
-	char c = tolower();
+	char c;
 
-	putchar(c);
+	for (c = "a"; c <= "z"; c++)
+	{
+		putchar(c);
+	}
+	putchar("\n");
 	return (0);
 }
