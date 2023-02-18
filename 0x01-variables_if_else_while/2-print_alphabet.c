@@ -10,12 +10,11 @@
 
 int main(void)
 {
-	char c[] = "a...z";
+	char c;
 	char l;
 
 	for (;; c++)
 	{
-		putchar(c);
 		l = tolower(c);
 		putchar(l);
 	}
