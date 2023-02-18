@@ -16,7 +16,8 @@ int main(void)
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		l = tolower(ch);
-		putchar(l"\n");
+		putchar(l);
+		putchar('\n');
 	}
 
 	return (0);
