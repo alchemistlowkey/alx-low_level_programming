@@ -17,9 +17,9 @@ int main(void)
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		l = tolower(ch);
-		putchar(l);
+		u = tolower(ch);
 	}
-	u = toupper(ch);
+	putchar(l);
 	putchar(u);
 	putchar('\n');
 	return (0);
