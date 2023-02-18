@@ -15,6 +15,7 @@ int main(void)
 
 	for (;; c++)
 	{
+		putchar(a..z);
 		l = tolower(c);
 		putchar(l);
 	}
