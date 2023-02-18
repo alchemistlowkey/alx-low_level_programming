@@ -11,11 +11,12 @@
 int main(void)
 {
 	char c;
+	char l;
 
-	for (c = "a"; c <= "z"; c++)
+	for (;; c++)
 	{
-		putchar(c);
+		l = tolower(c);
+		putchar(l);
 	}
-	putchar("\n");
 	return (0);
 }
