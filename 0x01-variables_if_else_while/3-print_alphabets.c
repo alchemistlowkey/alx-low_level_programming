@@ -18,6 +18,8 @@ int main(void)
 	{
 		l = tolower(ch);
 		putchar(l);
+	}
+	{
 		u = toupper(ch);
 		putchar(u);
 	}
