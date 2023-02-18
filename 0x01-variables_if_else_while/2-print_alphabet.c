@@ -17,8 +17,7 @@ int main(void)
 	{
 		l = tolower(ch);
 		putchar(l);
-		putchar('\n');
 	}
-
+	putchar('\n');
 	return (0);
 }
