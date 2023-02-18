@@ -13,7 +13,7 @@ int main(void)
 	int ch;
 	int l;
 
-	for (ch = 'z'; ch <= 'a'; ch--)
+	for (ch = 'z'; ch >= 'a'; ch--)
 	{
 		l = tolower(ch);
 		putchar(l);
