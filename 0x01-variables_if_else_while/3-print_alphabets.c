@@ -15,11 +15,15 @@ int main(void)
 	int u;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
+	{
 		l = tolower(ch);
 		putchar(l);
+	}
 	for (ch = 'a'; ch <= 'z'; ch++)
+	{
 		u = toupper(ch);
 		putchar(u);
+	}
 	putchar('\n');
 	return (0);
 }
