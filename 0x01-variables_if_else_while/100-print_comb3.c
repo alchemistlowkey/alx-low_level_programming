@@ -22,8 +22,7 @@ int main(void)
 			if (i != j)
 			if (j != i)
 			if (i < j)
-			putchar(i);
-			putchar(j);
+			putchar(i + j);
 			{
 				putchar(',');
 				putchar(' ');
