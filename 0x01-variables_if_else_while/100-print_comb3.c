@@ -19,7 +19,7 @@ int main(void)
 		putchar(i);
 		for (j = 48; i < 58; j++)
 		{
-			k = "ij";
+			k = ("ij");
 			putchar(k);
 			if (k != 57)
 			{
