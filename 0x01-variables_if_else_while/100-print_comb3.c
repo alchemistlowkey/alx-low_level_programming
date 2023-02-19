@@ -16,10 +16,10 @@ int main(void)
 
 	for (i = 48; i < 58; i++)
 	{
-		putchar(i);
 		for (j = 48; i < 58; j++)
 		{
-			putchar(k);
+			putchar(i);
+			putchar(j);
 			if (j != 57)
 			{
 				putchar(',');
