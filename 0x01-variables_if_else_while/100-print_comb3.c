@@ -12,14 +12,16 @@ int main(void)
 {
 	int i;
 	int j;
+	int k;
 
 	for (i = 48; i < 58; i++)
 	{
 		putchar(i);
 		for (j = 48; i < 58; j++)
 		{
-			putchar(ij);
-			if (i != 57)
+			k = ij;
+			putchar(k);
+			if (k != 57)
 			{
 				putchar(',');
 				putchar(' ');
