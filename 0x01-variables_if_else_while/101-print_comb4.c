@@ -26,6 +26,9 @@ int main(void)
 				if (i < 57)
 				if (j < 57)
 				if (k < 57)
+				if (i != j)
+				if (i != k)
+				if (j != k)
 				{
 					putchar(',');
 					putchar(' ');
