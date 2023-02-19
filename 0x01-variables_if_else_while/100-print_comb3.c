@@ -21,6 +21,8 @@ int main(void)
 			if (j < 57)
 			if (i != j)
 			if (j != i)
+			if (i != i)
+			if (j != j)
 			putchar(i);
 			putchar(j);
 			{
