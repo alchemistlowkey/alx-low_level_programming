@@ -17,14 +17,14 @@ int main(void)
 	{
 		for (j = 48; j < 58; j++)
 		{
-			if (i < 58)
-			if (j < 58)
 			if (i != j)
 			if (j != i)
 			if (i < j)
 			if (i | j)
 			putchar(i);
 			putchar(j);
+			if (i < 58)
+			if (j < 58)
 			{
 				putchar(',');
 				putchar(' ');
