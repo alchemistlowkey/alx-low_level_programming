@@ -12,10 +12,10 @@ int main(void)
 {
 	int i;
 
-	for (i = 18; i < 28; i++)
+	for (i = 38; i < 48; i++)
 	{
 		putchar(i);
-		if (i != 27)
+		if (i != 47)
 		{
 			putchar(',');
 			putchar(' ');
