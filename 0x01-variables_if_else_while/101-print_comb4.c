@@ -21,9 +21,6 @@ int main(void)
 			for (k = 48; k < 58; k++)
 			{
 				if (i && j && k)
-				putchar(i);
-				putchar(j);
-				putchar(k);
 				if (i < 58)
 				if (j < 58)
 				if (k < 58)
@@ -32,6 +29,9 @@ int main(void)
 				if (i < k)
 				if (j < k)
 				{
+					putchar(i);
+					putchar(j);
+					putchar(k);
 					putchar(',');
 					putchar(' ');
 				}
