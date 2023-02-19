@@ -21,11 +21,11 @@ int main(void)
 			if (j != i)
 			if (i < j)
 			if (i && j)
-			putchar(i);
-			putchar(j);
-			if (i < 58)
-			if (j < 58)
+			if (i < 57)
+			if (j < 57)
 			{
+				putchar(i);
+				putchar(j);
 				putchar(',');
 				putchar(' ');
 			}
