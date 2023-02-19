@@ -23,15 +23,16 @@ int main(void)
 				putchar(i);
 				putchar(j);
 				putchar(k);
-				if (i < 57)
-				if (j < 57)
-				if (k < 57)
+				if (i < 58)
+				if (j < 58)
+				if (k < 58)
 				if (i != j)
 				if (i != k)
 				if (j != k)
 				if (i < j)
 				if (i < k)
 				if (j < k)
+				if (i && j && k)
 				{
 					putchar(',');
 					putchar(' ');
