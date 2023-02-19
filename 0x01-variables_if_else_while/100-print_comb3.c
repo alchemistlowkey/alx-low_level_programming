@@ -20,6 +20,7 @@ int main(void)
 			if (i < 57)
 			if (j < 57)
 			if (i != j)
+			if (ij != ji)
 			putchar(i);
 			putchar(j);
 			{
