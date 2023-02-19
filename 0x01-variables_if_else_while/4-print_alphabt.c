@@ -16,8 +16,10 @@ int main(void)
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		if (ch != 'e' && ch != 'q')
-		l = tolower(ch);
-		putchar(l);
+		{
+			l = tolower(ch);
+			putchar(l);
+		}
 	}
 	putchar('\n');
 	return (0);
