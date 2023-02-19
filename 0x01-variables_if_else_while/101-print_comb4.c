@@ -20,6 +20,7 @@ int main(void)
 		{
 			for (k = 48; k < 58; k++)
 			{
+				if (i && j && k)
 				putchar(i);
 				putchar(j);
 				putchar(k);
@@ -32,7 +33,6 @@ int main(void)
 				if (i < j)
 				if (i < k)
 				if (j < k)
-				if (i && j && k)
 				{
 					putchar(',');
 					putchar(' ');
