@@ -30,7 +30,7 @@ int main(void)
 					putchar(i);
 					putchar(j);
 					putchar(' ');
-					if (a < b)
+					if (a != b)
 					putchar(k);
 					putchar(l);
 					{
