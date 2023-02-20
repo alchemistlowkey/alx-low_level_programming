@@ -20,12 +20,14 @@ int main(void)
 			if (i != j)
 			if (j != i)
 			if (i < j)
-			putchar(i);
-			putchar(j);
-			if (i != 56 || j != 57)
 			{
-				putchar(',');
-				putchar(' ');
+				putchar(i);
+				putchar(j);
+				if (i != 56 || j != 57)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
