@@ -25,14 +25,17 @@ int main(void)
 			{
 				for (l = 48; l <= 57; l++)
 				{
+					a = i + j;
+					b = k + l;
 					putchar(i);
 					putchar(j);
 					putchar(' ');
 					putchar(k);
 					putchar(l);
-					a = i + j;
-					b = k + l;
 					if (a != b)
+					{
+						break;
+					}
 					{
 						putchar(',');
 						putchar(' ');
