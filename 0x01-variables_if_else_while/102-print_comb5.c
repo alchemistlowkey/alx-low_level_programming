@@ -28,6 +28,7 @@ int main(void)
 					a = i + j;
 					b = k + l;
 					if (a != b)
+					if (a && b)
 					putchar(i);
 					putchar(j);
 					putchar(' ');
