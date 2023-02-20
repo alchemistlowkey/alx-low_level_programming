@@ -31,6 +31,7 @@ int main(void)
 					putchar(j);
 					putchar(' ');
 					if (a != b)
+					if (k && l)
 					putchar(k);
 					putchar(l);
 					{
