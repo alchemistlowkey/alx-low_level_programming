@@ -23,7 +23,6 @@ int main(void)
 				if (i < 58)
 				if (j < 58)
 				if (k < 58)
-				if (i != j || i != k || j != k)
 				if (i < j)
 				if (i < k)
 				if (j < k)
@@ -31,8 +30,11 @@ int main(void)
 					putchar(i);
 					putchar(j);
 					putchar(k);
-					putchar(',');
-					putchar(' ');
+					if (i != j || i != k || j != k)
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
 			}
 		}
