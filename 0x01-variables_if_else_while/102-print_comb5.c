@@ -27,9 +27,12 @@ int main(void)
 				{
 					a = i + j;
 					b = k + l;
-					putchar(a);
+					if (a < b)
+					putchar(i);
+					putchar(j);
 					putchar(' ');
-					putchar(b);
+					putchar(k);
+					putchar(l);
 					{
 						putchar(',');
 						putchar(' ');
