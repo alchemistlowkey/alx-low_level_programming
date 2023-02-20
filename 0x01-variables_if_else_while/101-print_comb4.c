@@ -20,13 +20,16 @@ int main(void)
 		{
 			for (k = 50; k <= 57; k++)
 			{
+				if (i != j)
+				if (j != k)
+				if (i != k)
 				if (i < j)
 				if (j < k)
 				{
 					putchar(i);
 					putchar(j);
 					putchar(k);
-					if (i != j || i != k || j != k)
+					if (i != 55 || j != 56 || k != 57)
 					{
 						putchar(',');
 						putchar(' ');
