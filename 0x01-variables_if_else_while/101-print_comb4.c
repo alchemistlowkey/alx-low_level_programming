@@ -20,9 +20,6 @@ int main(void)
 		{
 			for (k = 50; k <= 57; k++)
 			{
-				if (i < 58)
-				if (j < 58)
-				if (k < 58)
 				if (i < j)
 				if (i < k)
 				if (j < k)
