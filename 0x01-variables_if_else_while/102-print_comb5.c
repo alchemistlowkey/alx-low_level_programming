@@ -27,11 +27,12 @@ int main(void)
 				{
 					a = i + j;
 					b = k + l;
+					if (i && j)
+					if (k && l)
+					if (a < b)
 					putchar(i);
 					putchar(j);
 					putchar(' ');
-					if (a != b)
-					if (k && l)
 					putchar(k);
 					putchar(l);
 					{
