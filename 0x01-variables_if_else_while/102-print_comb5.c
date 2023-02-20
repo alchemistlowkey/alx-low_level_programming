@@ -32,7 +32,7 @@ int main(void)
 					putchar(l);
 					a = i + j;
 					b = k + l;
-					if (a == b && b == a)
+					if (a == b)
 					{
 						break;
 					}
