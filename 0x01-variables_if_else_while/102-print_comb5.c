@@ -14,8 +14,6 @@ int main(void)
 	int j;
 	int k;
 	int l;
-	int a;
-	int b;
 
 	for (i = 48; i <= 57; i++)
 	{
@@ -25,9 +23,6 @@ int main(void)
 			{
 				for (l = 48; l <= 57; l++)
 				{
-					a = i + j;
-					b = k + l;
-					if (a < b)
 					putchar(i);
 					putchar(j);
 					putchar(' ');
