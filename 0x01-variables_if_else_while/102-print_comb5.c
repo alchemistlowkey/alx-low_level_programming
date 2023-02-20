@@ -32,10 +32,7 @@ int main(void)
 					putchar(l);
 					a = i + j;
 					b = k + l;
-					if (a == b)
-					{
-						break;
-					}
+					if (a != b)
 					{
 						putchar(',');
 						putchar(' ');
