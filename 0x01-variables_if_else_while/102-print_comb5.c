@@ -14,6 +14,8 @@ int main(void)
 	int j;
 	int k;
 	int l;
+	int a;
+	int b;
 
 	for (i = 48; i <= 57; i++)
 	{
@@ -28,6 +30,12 @@ int main(void)
 					putchar(' ');
 					putchar(k);
 					putchar(l);
+					a = i + j;
+					b = k + l;
+					if (a == b && b == a)
+					{
+						break;
+					}
 					{
 						putchar(',');
 						putchar(' ');
