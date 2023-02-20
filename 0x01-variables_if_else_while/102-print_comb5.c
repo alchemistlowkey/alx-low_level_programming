@@ -27,9 +27,6 @@ int main(void)
 				{
 					a = i + j;
 					b = k + l;
-					if (i >= 48 && j >= 48)
-					if (a != b)
-					if (a && b)
 					putchar(i);
 					putchar(j);
 					putchar(' ');
