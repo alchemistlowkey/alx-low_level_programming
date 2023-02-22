@@ -23,6 +23,6 @@ int main(void)
 		d = a + b;
 		a = b;
 	}
-	printf("%lu\n", sum)
+	printf("%lu\n", c)
 	return (0);
 }
