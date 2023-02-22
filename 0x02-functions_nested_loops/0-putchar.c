@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
  * main - for a putchar printout
  * Return: 0 (success)
@@ -13,5 +13,6 @@ _putchar(99);
 _putchar(104);
 _putchar(97);
 _putchar(114);
+_putchar('\n')
 return (0);
 }
