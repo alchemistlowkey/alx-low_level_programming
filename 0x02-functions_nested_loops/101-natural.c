@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 /**
  * main - for sum of natual numbers
  * Return: 0 (success)
