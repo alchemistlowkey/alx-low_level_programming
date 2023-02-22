@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_sign - for a putchar alphabet printout
+ * print_sign - for an arithmetic printout
  * @n: prints sign
  * Return: -1 0 and 1
  */
