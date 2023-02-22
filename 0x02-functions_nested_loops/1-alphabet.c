@@ -6,12 +6,10 @@
 int main(void)
 {
 	int al;
-	int l;
 
-	for (al = 'a'; al <= 'z'; al++)
+	for (al = 97; al <= 122; al++)
 	{
-		l = tolower(al);
-		_putchar(l);
+		_putchar(al);
 	}
 	_putchar('\n');
 	return (0);
