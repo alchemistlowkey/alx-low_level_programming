@@ -3,7 +3,7 @@
  * main - for a putchar printout
  * Return: 0 (success)
  */
-int main(void)
+void print_alphabet(void)
 {
 	int al;
 
