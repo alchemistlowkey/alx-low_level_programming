@@ -5,11 +5,19 @@
 void print_alphabet_x10(void)
 {
 	int al;
+	int r;
 
-	for (al = 97; al <= 122; al++)
+	r = 0;
+
+	while (r < 10)
 	{
-		_putchar(al);
+		al = 97;
+		while (al <= 122)
+		{
+			_putchar(al);
+			al++;
+		}
+		_putchar('\n');
+		r++;
 	}
-	_putchar('\n');
-	return (10);
 }
