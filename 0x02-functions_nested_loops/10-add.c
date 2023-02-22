@@ -5,13 +5,12 @@
  * add - check the code
  * @i: first integer
  * @j: second integer
- * Return: Always 0.
+ * Return: k
  */
 int add(int i, int j)
 {
 	int k;
 
 	k = i + j;
-	_putchar(k + '0');
-	return (0);
+	return (k);
 }
