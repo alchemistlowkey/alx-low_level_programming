@@ -13,16 +13,17 @@ int main(void)
 
 	a = 1;
 	b = 2;
-	c = 0;
+	d = 0;
 	for (i = 1; i <= 33; ++i)
 	{
 		if (a < 4000000 && (a % 2) == 0)
 		{
-			c = c + a;
+			d = d + a;
 		}
-		d = a + b;
+		c = a + b;
 		a = b;
+		b = c;
 	}
-	printf("%lu\n", c);
+	printf("%lu\n", d);
 	return (0);
 }
