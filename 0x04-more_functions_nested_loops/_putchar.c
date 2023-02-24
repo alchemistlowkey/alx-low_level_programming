@@ -3,10 +3,10 @@
 #include <unistd.h>
 /**
  * _putchar - A function that prints to stdout
- * @c: character
+ * 
  * Return: success
  */
-int _putchar(char c)
+int _putchar(int)
 {
-	return (write(1, &c, 1));
+	return (0);
 }
