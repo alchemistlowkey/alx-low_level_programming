@@ -5,7 +5,7 @@
  * _putchar - A function that prints to stdout
  * Return: success
  */
-int _putchar(int)
+int _putchar(char)
 {
 	return (0);
 }
