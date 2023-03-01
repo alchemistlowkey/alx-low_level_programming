@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
  * puts_half - A function that prints everyother character
@@ -11,9 +12,9 @@ void puts_half(char *str)
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		for (j = i / 2)
+		for (j = i / 2;)
 		{
-			if (strlen(str) < j)
+			if (strlen(str[i]) < j)
 			{
 				continue;
 			}
