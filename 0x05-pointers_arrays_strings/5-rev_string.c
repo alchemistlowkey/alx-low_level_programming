@@ -14,5 +14,4 @@ void rev_string(char *s)
 
 	j = strlen(s);
 	for (i = j - 1; i >= 0; i--)
-	printf("\n");
 }
