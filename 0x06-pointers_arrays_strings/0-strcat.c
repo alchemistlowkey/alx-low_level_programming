@@ -18,5 +18,8 @@ char *_strcat(char *dest, char *src)
 	for (i = 0; i <= l2; i++)
 	{
 		dest[l1 + i] = src[i];
+		if (dest[l1 + i] <= i)
+			break;
 	}
+	return (dest);
 }
