@@ -3,22 +3,22 @@
 #include <string.h>
 
 /**
- * *_strcat - concate strings
+ * *_strncat - concate strings
  * @dest: character
  * @src: character
- *
+ * @n: integer
  * Return: dest character
  */
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
-	int i, l1, l2;
+	int l1, l2;
 
 	l1 = strlen(dest);
 	l2 = strlen(src);
-	for (i = 0; i <= l2; i++)
+	for (n = 0; n <= l2; n++)
 	{
-		dest[l1 + i] = src[i];
-		if (dest[l1 + i] <= i)
+		dest[l1 + n] = src[n];
+		if (dest[l1 + n] <= n)
 			break;
 	}
 	return (dest);
