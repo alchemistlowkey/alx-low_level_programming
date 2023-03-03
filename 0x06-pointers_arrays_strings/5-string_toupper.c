@@ -4,14 +4,14 @@
 
 /**
  * *string_toupper - change to upper case
- *
+ * @n: character
  * Return: Always 0.
  */
-char *string_toupper(char *)
+char *string_toupper(char *n)
 {
 	int i;
 
-	for (i = 0; n(i) != '\0'; i++)
+	for (i = 0; n[i] != '\0'; i++)
 	{
 		if (n[i] >= 97 && n[i] <= 122)
 		{
