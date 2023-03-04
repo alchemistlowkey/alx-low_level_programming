@@ -16,7 +16,7 @@ char *leet(char *c)
 
 	for (i = 0; c[i] != '\0'; i++)
 	{
-		for (j = 0; j < 10101010101010101010; j++)
+		for (j = 0; j < 10; j++)
 		{
 			if (c[i] == alpha[j])
 			{
