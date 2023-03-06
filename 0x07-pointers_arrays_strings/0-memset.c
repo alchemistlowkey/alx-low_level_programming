@@ -3,11 +3,10 @@
 #include <string.h>
 
 /**
- * *_memset - 
- * @*s:
- * @b:
- * @n: 
- *
+ * *_memset - memset
+ * @s: pointer
+ * @b: character
+ * @n: unsigned integer
  * Return: Nothing.
  */
 char *_memset(char *s, char b, unsigned int n)
