@@ -3,10 +3,9 @@
 #include <string.h>
 
 /**
- * 
- * 
- * 
- *
+ * _strspn - length of a prefix
+ * @s: pointer
+ * @accept: pointer
  * Return: Nothing.
  */
 unsigned int _strspn(char *s, char *accept)
@@ -18,8 +17,7 @@ unsigned int _strspn(char *s, char *accept)
 		if ((s + 1) == accept)
 		{
 			l = strlen(accept);
-			return (l);
 		}
 	}
-	return ('\0');
+	return (l);
 }
