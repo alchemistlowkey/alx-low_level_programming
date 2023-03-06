@@ -18,7 +18,8 @@ unsigned int _strspn(char *s, char *accept)
 		{
 			if (*(s + 1) == *(accept + j))
 			{
-				l = strlen(accept);
+				l = strlen(accept + j);
+				break;
 			}
 		}
 	}
