@@ -6,23 +6,23 @@
 /**
  * _pow - square
  * @i: integer
- * @j: integer
+ * @n: integer
  * Return: (-1)
  */
-int _pow(int i, int j)
+int _pow(int i, int n)
 {
-	if (i % (j / i) == 0)
+	if (i % (n / i) == 0)
 	{
-		if (i * (j / i) == j)
+		if (i * (n / i) == n)
 		{
-			return (i);
+			return (1);
 		}
 		else
 		{
 			return (-1);
 		}
 	}
-	return (0 + _pow(j, i +1));
+	return (0 + _pow(n, i + 1));
 }
 /**
  * _sqrt_recursion - square root recursion
