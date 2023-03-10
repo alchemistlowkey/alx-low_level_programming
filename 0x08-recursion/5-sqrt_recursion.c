@@ -9,13 +9,13 @@
  * @n: integer
  * Return: (-1)
  */
-int _pow(int i, int n)
+int _pow(int n, int i)
 {
 	if (i % (n / i) == 0)
 	{
 		if (i * (n / i) == n)
 		{
-			return (1);
+			return (i);
 		}
 		else
 		{
