@@ -3,8 +3,9 @@
 #include <string.h>
 
 /**
- * _strlen - string length
+ * _strlen - string length of character
  * @s: character
+ * Return: string length
  */
 int _strlen(char *s)
 {
@@ -13,13 +14,11 @@ int _strlen(char *s)
 		return (0);
 	}
 	else
-	{
 		return (1 + _strlen(s + 1));
-	}
 }
 
 /**
- * _compare = compare string
+ * _compare - compare string
  * @s: character
  * @i: integer
  * @j: integer
@@ -39,7 +38,7 @@ int _compare(char *s, int i, int j)
 /**
  * is_palindrome - Palindrome check
  * @s: character
- * Return: Nothing.
+ * Return: 1 or 0
  */
 int is_palindrome(char *s)
 {
