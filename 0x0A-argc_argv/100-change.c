@@ -10,11 +10,13 @@
  */
 int main(int argc, char *argv[])
 {
-	int i, j = 0;
+	int i, cents;
+	int coins[] = {25, 10, 5, 2, 1};
 
-	(void) argv;
-	for (i = 0; i < argc; i++)
-		j += i;
-	printf("%d\n", j);
+	for (i = 0; i < coins[]; i++)
+	{
+		if (coins == 10)
+			cents = 1;
+	}
 	return (0);
 }
