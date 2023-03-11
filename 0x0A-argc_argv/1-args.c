@@ -14,7 +14,13 @@ int main(int argc, char *argv[])
 
 	(void) argv;
 	for (i = 0; i < argc; i++)
+	{
 		j += i;
+		if (i == ',')
+		{
+			return (-1);
+		}
+	}
 	printf("%d\n", j);
 	return (0);
 }
