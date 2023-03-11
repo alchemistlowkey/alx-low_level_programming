@@ -10,13 +10,27 @@
  */
 int main(int argc, char *argv[])
 {
-	int i, cents;
+	int i, j, k;
 	int coins[] = {25, 10, 5, 2, 1};
 
-	for (i = 0; i < coins[]; i++)
+	if (argc != 2)
 	{
-		if (coins == 10)
-			cents = 1;
+		printf("Error\n");
+		return (1);
+	}
+	j = atoi(argv[1]);
+	k = 0;
+	if (j < 0)
+	{
+		printf("0\n");
+		return (0);
+	}
+	for (i = 0; i < 5 && j >= 0; i++)
+	{
+		while (j >= coins[i])
+		{
+			j++;
+		}
 	}
 	return (0);
 }
