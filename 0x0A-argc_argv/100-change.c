@@ -4,7 +4,7 @@
 
 /**
  * main - program name
- * @argc arguments count
+ * @argc: arguments count
  * @argv: arguments vector
  * Return: 0
  */
