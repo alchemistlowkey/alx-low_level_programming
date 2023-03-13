@@ -10,17 +10,13 @@
  */
 int main(int argc, char *argv[])
 {
-	int i, j = 0;
+	int i;
 
 	(void) argv;
-	for (i = 0; i < argc; i++)
+	for (i = 0; i < argc; i++)	
 	{
-		j += i;
-		if (i == ',')
-		{
-			return (-1);
-		}
+		printf("%d\n", argc - 1);
+		break;
 	}
-	printf("%d\n", j);
 	return (0);
 }
