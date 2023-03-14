@@ -10,29 +10,29 @@
  */
 int _strlen(char *s)
 {
-        int i = 0;
+	int i = 0;
 
-        for (i = 0; s[i] != '\0';)
-                i++;
-        return (i);
+	for (i = 0; s[i] != '\0';)
+		i++;
+	return (i);
 }
 
 /**
- * *_strncpy - copy strings
+ * *_strcpy - copy strings
  * @dest: character
  * @src: character
  * Return: dest character
  */
 char *_strcpy(char *dest, char *src)
 {
-        int i;
+	int i;
 
-        for (i = 0; src[i] != '\0'; i++)
-        {
-                dest[i] = src[i];
-        }
-        dest[i] = '\0';
-        return (dest);
+	for (i = 0; src[i] != '\0'; i++)
+	{
+		dest[i] = src[i];
+	}
+	dest[i] = '\0';
+	return (dest);
 }
 
 /**
