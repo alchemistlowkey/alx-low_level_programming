@@ -22,14 +22,14 @@ int main(void)
 		}
 		else if (i % 5 == 0)
 		{
-			printf("Buzz ");
+			if (i < j)
+				printf("Buzz ");
+			else
+				printf("Buzz");
 		}
 		else
 		{
-			if (i < j)
 				printf("%d ", i);
-			else
-				printf("%d", i);
 		}
 	}
 	printf("\n");
