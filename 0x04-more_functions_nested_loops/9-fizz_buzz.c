@@ -25,6 +25,7 @@ int main(void)
 		}
 		else
 		{
+			if (i != '\0')
 			printf("%d ", i);
 		}
 	}
