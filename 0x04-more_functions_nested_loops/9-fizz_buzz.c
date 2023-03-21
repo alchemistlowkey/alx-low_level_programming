@@ -7,8 +7,9 @@
  */
 int main(void)
 {
-	int i;
+	int i, j;
 
+	j = 100;
 	for (i = 1; i <= 100; i++)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
@@ -25,8 +26,10 @@ int main(void)
 		}
 		else
 		{
-			if (i != '\0')
-			printf("%d ", i);
+			if (i < j)
+				printf("%d ", i);
+			else
+				printf("%d", i);
 		}
 	}
 	printf("\n");
