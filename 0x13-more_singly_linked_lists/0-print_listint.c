@@ -5,7 +5,6 @@
  * @h: const listint_t
  * Return: i(number of nodes)
  */
-
 size_t print_listint(const listint_t *h)
 {
 	size_t i;
