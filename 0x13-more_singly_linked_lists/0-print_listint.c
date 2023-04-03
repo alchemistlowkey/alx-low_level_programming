@@ -3,7 +3,7 @@
 /**
  * print_listint - Function that prints all the elements of a list
  * @h: const listint_t
- * Return: i(number of nodes)
+ * Return: the number of nodes
  */
 size_t print_listint(const listint_t *h)
 {
