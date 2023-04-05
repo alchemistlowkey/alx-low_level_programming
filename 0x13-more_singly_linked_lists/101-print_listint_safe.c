@@ -16,7 +16,7 @@ size_t print_listint_safe(const listint_t *head)
 	}
 	new = head;
 	tmp = head;
-	for (i = 0; new && tmp && tmp->next && head != NULL; i++)
+	for (i = 0; new && tmp && tmp->next && head->next && head != NULL; i++)
 	{
 		new = new->next;
 		tmp = tmp->next->next;
