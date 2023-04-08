@@ -15,7 +15,7 @@ void print_binary(unsigned long int n)
 	}
 	for (i = 0; ref; i++)
 	{
-		if (j == 1 && (n & ref) == 0)
+		if (j == 1 && ((n & ref) == 0))
 		{
 			_putchar(48);
 		}
