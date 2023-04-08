@@ -7,7 +7,7 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int i, j;
+	unsigned int i, j, k;
 
 	if (b == NULL)
 	{
@@ -22,7 +22,8 @@ unsigned int binary_to_uint(const char *b)
 		}
 		if (b[i])
 		{
-			j = 2 * j + (b[i] - '0');
+			k = (b[i] - '0');
+			j = 2 * j + k;
 		}
 	}
 	return (j);
