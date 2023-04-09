@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * get_bit - return value function
+ * set_bit - bit enabling
  * @n: unsigned long integer
  * @index: unsigned integer
- * Return: 0.
+ * Return: 1
  */
-int get_bit(unsigned long int n, unsigned int index)
+int set_bit(unsigned long int *n, unsigned int index)
 {
 	unsigned long int ref;
 
@@ -16,12 +16,6 @@ int get_bit(unsigned long int n, unsigned int index)
 	{
 		return (-1);
 	}
-	if (n & ref)
-	{
-		return (1);
-	}
-	else
-	{
-		return (0);
-	}
+	*n |= ref;
+	return (1);
 }
