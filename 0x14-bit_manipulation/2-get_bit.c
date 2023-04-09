@@ -12,11 +12,11 @@ int get_bit(unsigned long int n, unsigned int index)
 
 	ref = 0x01;
 	ref <<= index;
-	if (ref == 0)
+	if ((ref == 0))
 	{
 		return (-1);
 	}
-	if (n & ref)
+	if ((n & ref))
 	{
 		return (1);
 	}
