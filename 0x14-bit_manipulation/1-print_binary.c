@@ -7,23 +7,9 @@
  */
 void print_binary(unsigned long int n)
 {
-	unsigned int i, j, ref = 32768;
-
-	if (n == 0)
+	if (n > 1)
 	{
-		_putchar(48);
+		print_binary(n >> 1);
 	}
-	for (i = 0; ref; i++)
-	{
-		if (j == 1 && ((n & ref) == 0))
-		{
-			_putchar(48);
-		}
-		else if ((n & ref) != 0)
-		{
-			_putchar(49);
-			j = 1;
-		}
-		ref >>= 1;
-	}
+	_putchar((n & 1) ? '1' : '0');
 }
