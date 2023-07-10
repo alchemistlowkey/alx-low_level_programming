@@ -46,11 +46,6 @@ int main(int argc, char *argv[])
 			exit(99);
 		}
 	}
-	if (err < 0)
-	{
-		exit(100);
-	}
-	close(j);
 	close(k);
 	return (0);
 }
