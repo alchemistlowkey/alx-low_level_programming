@@ -9,4 +9,4 @@ $(NAME): $(OBJ)
 	$(CC) $(SRC) -o $(NAME)
 
 clean:
-	rm school
+	rm $(NAME)
